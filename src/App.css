@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  margin: 2rem;
+}
+
+ul.word-list li {
+  list-style: circle;
+  padding: 0.2rem 0;
 }
 
 .App-logo {
