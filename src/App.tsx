@@ -21,10 +21,10 @@ function App() {
     <h1>Find Words</h1>
     <p>Enter letters with "." (period) as placeholders to find matching words and definitions</p>
     <input onChange={handleChange} value={input} onKeyPress={checkEnter}></input>
-    <button onClick={() => {setData(Algorithm(input))}}>Start</button>
-    <ul className="word-list">
+    <button className="btn-info px-4 mx-4" onClick={() => {setData(Algorithm(input))}}>Start</button>
+    <ul className="word-list list-group my-4">
     {
-      data.map((e,i) => <li key={"par"+i}><b>{e.word}</b>: {e.def}</li>)
+      data.map((e,i) => <li key={"par"+i} className="list-group-item p-2"><strong>{e.word}</strong>: {e.def}</li>)
     }
     </ul>
   </div>
