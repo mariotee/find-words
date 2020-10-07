@@ -1,11 +1,15 @@
-import Dictionary from "util/dictionary.json" 
+import Dictionary from "util/dictionary.json";
 
 interface IOutput {
     word: string;
     def: string;
 }
 
-export default function Algorithm(token:string) {
+interface IDictionary {
+  [key:string]: string;
+}
+
+export default function Algorithm(token:string):IOutput[] {
   const found:IOutput[] = [];
   const regex:RegExp = new RegExp(token);
 
@@ -13,7 +17,7 @@ export default function Algorithm(token:string) {
 
   for (const key of keysToSearch) {
     if (regex.test(key)) {
-        found.push({word: key, def: (Dictionary as any)[key]});    
+        found.push({word: key, def: (Dictionary as IDictionary)[key]});    
     }
   }
 
