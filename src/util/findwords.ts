@@ -1,6 +1,6 @@
 import Dictionary from "util/dictionary.json";
 
-interface IOutput {
+export interface IOutput {
     word: string;
     def: string;
 }
@@ -9,7 +9,7 @@ interface IDictionary {
   [key:string]: string;
 }
 
-export default function Algorithm(token:string):IOutput[] {
+export function Match(token:string):IOutput[] {
   const found:IOutput[] = [];
   const regex:RegExp = new RegExp(token);
 
