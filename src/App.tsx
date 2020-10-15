@@ -21,7 +21,7 @@ function App() {
     <h1>Find Words</h1>
     <p>Enter letters with "." (period) as placeholders to find matching words and definitions</p>
     <input onChange={handleChange} value={input} onKeyPress={checkEnter}></input>
-    <button className="btn-info px-4 m-4" onClick={() => {setData(FindWords.Match(input))}}>Start</button>
+    <button className="btn-info px-4 m-4" onClick={() => {setData(FindWords.Match(input))}}>Find Words</button>
     <ul className="word-list list-group my-4">
     {
       data.map((e,i) => <li key={"par"+i} className="list-group-item p-2"><strong>{e.word}</strong>: {e.def}</li>)
