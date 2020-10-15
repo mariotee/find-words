@@ -10,10 +10,11 @@ interface IDictionary {
 }
 
 export function Match(token:string):IOutput[] {
+  const parsedToken:string = token.replace(/[^A-z.]/,"");
   const found:IOutput[] = [];
-  const regex:RegExp = new RegExp(token);
+  const regex:RegExp = new RegExp(parsedToken);
 
-  const keysToSearch = Object.keys(Dictionary).filter((x) => x.length === token.length);
+  const keysToSearch = Object.keys(Dictionary).filter((x) => x.length === parsedToken.length);
 
   for (const key of keysToSearch) {
     if (regex.test(key)) {
