@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/find-words/static/css/main.c17015b5.chunk.css",
-    "main.js": "/find-words/static/js/main.a5d14bad.chunk.js",
-    "main.js.map": "/find-words/static/js/main.a5d14bad.chunk.js.map",
+    "main.js": "/find-words/static/js/main.8690c8b7.chunk.js",
+    "main.js.map": "/find-words/static/js/main.8690c8b7.chunk.js.map",
     "runtime-main.js": "/find-words/static/js/runtime-main.e201e53e.js",
     "runtime-main.js.map": "/find-words/static/js/runtime-main.e201e53e.js.map",
     "static/js/2.5c769917.chunk.js": "/find-words/static/js/2.5c769917.chunk.js",
     "static/js/2.5c769917.chunk.js.map": "/find-words/static/js/2.5c769917.chunk.js.map",
     "index.html": "/find-words/index.html",
-    "precache-manifest.ba753ff36a2a8b0b3a2c873ebb8218cf.js": "/find-words/precache-manifest.ba753ff36a2a8b0b3a2c873ebb8218cf.js",
+    "precache-manifest.c941ab3762e23a71321fbb3ec0ce748b.js": "/find-words/precache-manifest.c941ab3762e23a71321fbb3ec0ce748b.js",
     "service-worker.js": "/find-words/service-worker.js",
     "static/css/main.c17015b5.chunk.css.map": "/find-words/static/css/main.c17015b5.chunk.css.map",
     "static/js/2.5c769917.chunk.js.LICENSE.txt": "/find-words/static/js/2.5c769917.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.e201e53e.js",
     "static/js/2.5c769917.chunk.js",
     "static/css/main.c17015b5.chunk.css",
-    "static/js/main.a5d14bad.chunk.js"
+    "static/js/main.8690c8b7.chunk.js"
   ]
 }
