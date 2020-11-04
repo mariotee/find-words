@@ -10,7 +10,7 @@ interface IDictionary {
 }
 
 export function Match(token:string):IOutput[] {
-  const parsedToken:string = token.replace(/[^A-z.]/gi,"");
+  const parsedToken:string = token.replace(/[^A-z.]/g,"");
   const found:IOutput[] = [];
   const regex:RegExp = new RegExp(parsedToken);
 
